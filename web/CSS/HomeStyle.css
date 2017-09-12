@@ -1,0 +1,105 @@
+body
+{
+	background: rgba(255,216,143,1);
+	background: -moz-linear-gradient(top, rgba(255,216,143,1) 0%, rgba(253,203,116,1) 13%, rgba(245,155,10,1) 63%, rgba(246,167,40,1) 83%, rgba(212,144,42,1) 97%, rgba(212,144,42,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,216,143,1)), color-stop(13%, rgba(253,203,116,1)), color-stop(63%, rgba(245,155,10,1)), color-stop(83%, rgba(246,167,40,1)), color-stop(97%, rgba(212,144,42,1)), color-stop(100%, rgba(212,144,42,1)));
+	background: -webkit-linear-gradient(top, rgba(255,216,143,1) 0%, rgba(253,203,116,1) 13%, rgba(245,155,10,1) 63%, rgba(246,167,40,1) 83%, rgba(212,144,42,1) 97%, rgba(212,144,42,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,216,143,1) 0%, rgba(253,203,116,1) 13%, rgba(245,155,10,1) 63%, rgba(246,167,40,1) 83%, rgba(212,144,42,1) 97%, rgba(212,144,42,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,216,143,1) 0%, rgba(253,203,116,1) 13%, rgba(245,155,10,1) 63%, rgba(246,167,40,1) 83%, rgba(212,144,42,1) 97%, rgba(212,144,42,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,216,143,1) 0%, rgba(253,203,116,1) 13%, rgba(245,155,10,1) 63%, rgba(246,167,40,1) 83%, rgba(212,144,42,1) 97%, rgba(212,144,42,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd88f', endColorstr='#d4902a', GradientType=0 );
+	
+	
+	/*background-color: #F5DEB3;*/
+	font-family:"times new roman";
+}
+
+.Home div
+{
+	color:rgb(20,28,70);
+	margin:20px;
+	padding:2px;
+	border: 10px double #f0cf90;
+	box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.75);
+	height:120px;
+}
+
+.Home table
+{
+	margin-left:auto;
+	margin-right:auto;
+	border: 5px double #f0cf90;
+	box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.75);
+}
+
+.Home h1
+{
+	font-family:arial, "times new roman";
+	text-align:center;
+	font-size:300%;
+	color:black;
+}
+
+.Home h2
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size:200%;
+	font-family:Georgia;
+}
+
+.Home h3
+{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-align:center;
+}
+
+.Home p
+{
+	width:300px;
+	border: 2px dashed #C00000;
+	padding:3px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+}
+
+.Home img
+{
+	border: 1px double #f0cf90;
+	box-shadow: 5px 5px 25px 2px rgba(0,0,0,0.75);
+	margin:15px;
+}
+
+.Home .link
+{
+	color:black;
+	text-decoration:none;
+}
+
+.Home .galery-link-image
+{
+	width: 200px;
+	height: 300px;
+}
+
+#logo
+{
+	float: left;
+	overflow: auto;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 6px;
+	margin-right: 6px;
+	border: 2px solid black;
+	
+	width: 100px;
+	height: 100px;
+}
+
