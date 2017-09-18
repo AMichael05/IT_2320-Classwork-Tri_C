@@ -89,7 +89,7 @@ body
 	height: 300px;
 }
 
-#logo
+.logo
 {
 	float: left;
 	overflow: auto;
@@ -103,3 +103,14 @@ body
 	height: 100px;
 }
 
+.image-large
+{
+	width: 300px;
+	height: 450px;
+}
+
+.logo-large
+{
+	height: 200px;
+	width: 200px;
+}
