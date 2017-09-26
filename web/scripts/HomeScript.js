@@ -1,39 +1,33 @@
-function imageEnlarge(img)
+window.onload = function()
 {
-	img.className = "image-large";
+	var images = document.getElementsByClassName("galery-link-image");
+
+
+	
+	console.log("LOGGING");
+	console.log(images[0]);
+
+	for(var i = 0; i < images.length; ++i)
+	{
+		images[i].addEventListener("mouseover", imageEnlarge);
+		images[i].addEventListener("mouseout", imageShrink);
+	}
 }
-function imageShrink(img)
+
+
+
+function imageEnlarge(event)
 {
-	img.className = "galery-link-image";
+	event.target.className = "image-large";
 }
-
-
-/*
-Causes main title heading to move out of place
-
-function logoEnlarge(img)
+function imageShrink(event)
 {
-	img.className = "logo-large";
+	event.target.className = "galery-link-image";
 }
-function logoShrink(img)
-{
-	img.className = "logo";
-}
-*/
 
 
 
-/*
-Future update, use a looping addEventListener to add grow & shrink functions to all images through JavaScript
 
-var images = document.getElementByClassName("galery-link-image");
-
-for(var i = 0; i < images.length; ++i)
-{
-	images[i].addEventListener("onmouseover", imageEnlarge(images[i]));
-	images[i].addEventListener("onmouseout", imageShrink(images[i]));
-}
-*/
 
 
 
