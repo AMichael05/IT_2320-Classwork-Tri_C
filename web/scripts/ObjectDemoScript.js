@@ -41,3 +41,15 @@ console.log("amount");
 console.log(DemoMain.amount);
 console.log("price");
 console.log(DemoMain.price);
+
+
+
+
+"{
+	\"Lumber\":[
+		{\"species\": \"Walnut\", \"width\": 5, \"length\": 35, \"height\": 1, \"price\": 3.64}
+		{\"species\": \"Maple\", \"width\": 3, \"length\": 20, \"height\": 1, \"price\": 0.83}
+		{\"species\": \"Oak\", \"width\": 8, \"length\": 54, \"height\": 2, \"price\": 15.00}
+		{\"species\": \"Cherry\", \"width\": 9, \"length\": 44, \"height\": 1, \"price\": 8.25}
+	]
+}"
