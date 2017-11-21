@@ -1,0 +1,89 @@
+﻿@font-face{
+	font-family: Font1;
+	src: url(Font1.woff);
+}
+@font-face{
+	font-family: Font2;
+	src: url(Font2.woff);
+}
+
+.home > .catch
+{
+	line-height: 50px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: red;
+	font-family: Font1;
+    border: 1px solid black;
+	
+	-webkit-transition: width 2s, height 1s, -webkit-transform 2s; /* Safari */
+    transition: width 1s, height 1s, transform 0.2s;
+}
+
+.home > .clicked
+{
+	line-height: 200px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: green;
+	font-family: Font1;
+    border: 2px dashed black;
+	
+	-ms-transform: translate(400px, 200px); /* IE 9 */
+    -webkit-transform: translate(400px, 200px); /* Chrome, Safari, Opera */
+    transform: translate(400px, 200px);
+}
+
+.home > .pos1
+{
+	-ms-transform: translate(50px, 50px); /* IE 9 */
+    -webkit-transform: translate(50px, 50px); /* Chrome, Safari, Opera */
+    transform: translate(50px, 50px);
+}
+
+.home > .pos2
+{
+	-ms-transform: translate(300px, 550px); /* IE 9 */
+    -webkit-transform: translate(300px, 550px); /* Chrome, Safari, Opera */
+    transform: translate(300px, 550px);
+}
+.home > .pos3
+{
+	-ms-transform: translate(250px, 100px); /* IE 9 */
+    -webkit-transform: translate(250px, 100px); /* Chrome, Safari, Opera */
+    transform: translate(250px, 100px);
+}
+.home > .pos4
+{
+	-ms-transform: translate(50px, 250px); /* IE 9 */
+    -webkit-transform: translate(50px, 250px); /* Chrome, Safari, Opera */
+    transform: translate(50px, 250px);
+}
+.home > .pos5
+{
+	-ms-transform: translate(500px, 150px); /* IE 9 */
+    -webkit-transform: translate(500px, 150px); /* Chrome, Safari, Opera */
+    transform: translate(500px, 150px);
+}
+.home > .pos6
+{
+	-ms-transform: translate(350px, 400px); /* IE 9 */
+    -webkit-transform: translate(350px, 400px); /* Chrome, Safari, Opera */
+    transform: translate(350px, 400px);
+}
+.home > .pos7
+{
+	-ms-transform: translate(50px, 400px); /* IE 9 */
+    -webkit-transform: translate(50px, 400px); /* Chrome, Safari, Opera */
+    transform: translate(50px, 400px);
+}
+.home > .pos8
+{
+	-ms-transform: translate(200px, 200px); /* IE 9 */
+    -webkit-transform: translate(200px, 200px); /* Chrome, Safari, Opera */
+    transform: translate(200px, 200px);
+}
