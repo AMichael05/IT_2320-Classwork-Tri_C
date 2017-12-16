@@ -11,43 +11,80 @@
     <body>
         <script src="~/Scripts/jquery-2.1.1.min.js"></script>
         <script src="~/Scripts/jquery-ui.min.js"></script>
-        <script src="~/Scripts/bootstrap.min.js"></script>
         <script src="~/Scripts/Home.js"></script>
         
-        
-        <div id="global-header" class="row">
-            <div class="col-7">
-                <div class="card">
+        <div id="global-content-area">
+            <div id="login-content-area">
+                <div id="login-header">
                     <div>
-                        <h2>Welcom to Cuyahoga Community College Student Services Online</h2>
-                        <p>Cuyahoga Community College recognizes students' rights to access personal and academic records in accordance with the Family Education Rights and Privacy Act of 1974 (FERPA) as amended by Public Law 93-568</p>
+                        <div class="login-header">
+                            <h2>Welcom to Cuyahoga Community College Student Services Online</h2>
+                        </div>
+                        <div class="login-body-text">
+                            <p>Cuyahoga Community College recognizes students' rights to access personal and academic records in accordance with the Family Education Rights and Privacy Act of 1974 (FERPA) as amended by Public Law 93-568</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div id="main-content-area" class="row">
-            <div class="col-1"></div>
-            <div class="col-5">
-                <div class="align-content-center">
-                    <div class="card">
-                        <div>MAIN CONTENT</div>
+
+                <div id="login-main-content">
+                    <div class="section-one">
+                        <div class="description">
+                            <p>Already have an account with us? Returning Users may log in by entering their site username and password.</p>
+                        </div>
+                        <div class="input-form">
+                            <div class="input-field">
+                                <div>Username<input type="text" /></div>
+                            </div>
+                            <div class="input-field">
+                                <div>Password<input type="text" /></div>
+                            </div>
+                            <div class="submit-button">
+                                <div class="submit-container"><button class="submit-button">Log In</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-two">
+                        <div class="description">
+                            <p>New users, pleaser create a new account by providing us with some basic information.</p>
+                        </div>
+                        <div class="input-form">
+                            <div class="input-field">
+                                <div>Username<input type="text" /></div>
+                            </div>
+                            <div class="input-field">
+                                <div>Password<input type="text" /></div>
+                            </div>
+                            <div class="input-field">
+                                <div>E-Mail Address<input type="text" /></div>
+                            </div>
+                            <div class="input-field">
+                                <div>Repeat E-Mail Address<input type="text" /></div>
+                            </div>
+                            <div class="submit-button">
+                                <div class="submit-container"><button class="submit-button">Create Account</button></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-1"></div>
-        </div>
 
-        <div id="global-footer" class="row">
-            <div class="col-7">
-                <div class="card">
-                    <div>
+
+                <div id="global-footer">
+                    <div class="login-body-text">
                         <p>Cuyahoga Community College<br />700 Carnegie Avenue, Cleveland, Ohio 44115</p>
                     </div>
                 </div>
             </div>
+
+
+
+
+
+            <div id="acount-content-area">
+
+            </div>
         </div>
 
-
-    </body>
+</body>
 </html>
